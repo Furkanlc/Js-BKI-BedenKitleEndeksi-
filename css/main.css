@@ -1,0 +1,43 @@
+* {
+  margin: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.container #bmiBox {
+  width: 70%;
+  background-color: #424242;
+  color: #ffff;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  padding: 20px;
+  border-radius: 10px; }
+  .container #bmiBox #bmiCalc h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 600; }
+  .container #bmiBox #bmiCalc .row {
+    margin-bottom: 20px; }
+  .container #bmiBox #bmiResult {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600; }
+  .container #bmiBox #bmiInfo {
+    text-align: center;
+    margin-top: 100px; }
+    .container #bmiBox #bmiInfo .row .col-md-3 {
+      padding-top: 20px; }
+      .container #bmiBox #bmiInfo .row .col-md-3:nth-child(1) {
+        background-color: #2196f3;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px; }
+      .container #bmiBox #bmiInfo .row .col-md-3:nth-child(2) {
+        background-color: #43a047; }
+      .container #bmiBox #bmiInfo .row .col-md-3:nth-child(3) {
+        background-color: #fb8c00; }
+      .container #bmiBox #bmiInfo .row .col-md-3:nth-child(4) {
+        background-color: #c62882;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; }
